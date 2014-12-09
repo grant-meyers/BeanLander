@@ -10,7 +10,7 @@ import beanlander.mission.astronaut.DefaultAstronaut;
 import beanlander.problem.InvalidSourceParameters;
 import beanlander.surface.Surface;
 
-public class Apollo13 implements Iterable<Astronaut>{
+public class Apollo13 extends Mission implements Iterable<Astronaut> {
 	private final static int defaultAstronautCount = 3;
 	private final static int defaultMissionSeats = 2 * defaultAstronautCount;
 	private final static DefaultAstronaut defaultAstronaut = new DefaultAstronaut();
